@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{app,lib,config}/**/*'] + ['MIT-LICENSE', 'Rakefile', 'Gemfile', 'README.md']
 
   s.add_dependency 'rails', '>= 3.0'
-  s.add_dependency 'rails-settings-cached', '>= 2.0.0'
+  s.add_dependency 'rails-settings-cached'
   s.add_dependency 'i18n'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-rails'
